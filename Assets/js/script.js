@@ -1,13 +1,13 @@
 // If you can see 'Hello, World!' in the console, then you can remove this and replace it your code
-console.log("Hello, World!");
+// console.log("Hello, World!");
 
 // YOUR JS CODE GOES HERE
 
 $(document).ready(function () {
   // function to build and display current time
   function getCurrentTime() {
-    var today = moment().format("MMMM Do YYYY, h:mm:ss a");
-    $("#currentDay").text(today);
+    var todayDate = moment().format("MMMM Do YYYY, h:mm:ss a");
+    $("#currentDay").text(todayDate);
   }
   getCurrentTime();
 
